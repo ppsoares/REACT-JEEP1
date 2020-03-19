@@ -1,16 +1,14 @@
 import React from "react";
 import "./Link.css";
+import { Button } from "@bayon/commons";
 
 const Header = () => {
   return (
-    <a
-      className="Link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn React
-    </a>
+    <div>
+      <Button href="https://reactjs.org" variant="subtle">
+        Learn React
+      </Button>
+    </div>
   );
 };
 

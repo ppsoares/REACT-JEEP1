@@ -1,0 +1,17 @@
+.App-logo-buttons {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+
+.App-logo-buttons > button {
+  padding: 5px 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.App-logo-buttons > button:hover {
+  text-decoration: underline;
+}
